@@ -1,0 +1,30 @@
+.header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  background-image: url("./../../img/header/hero-bg.jpg");
+  width: 100%;
+  padding-top: 29px; }
+  .header-row {
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header-nav {
+    display: flex;
+    gap: 46px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px; }
+    .header-nav a {
+      transition: all 0.2s ease-in; }
+    .header-nav a:hover {
+      opacity: 0.8;
+      color: #FFD479; }
+  .header-img {
+    padding-top: 125px;
+    text-align: right; }
+
+/*# sourceMappingURL=header.css.map */
