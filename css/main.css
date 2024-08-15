@@ -291,14 +291,14 @@ label {
 }
 
 .programs {
-  margin-top: 143px;
+  padding-top: 160px;
 }
 .programs-SECTIONS {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  width: 550px;
+  margin: 0 auto;
 }
 .programs-title {
   font-family: 'Bebas Neue', sans-serif;
@@ -307,37 +307,32 @@ label {
   line-height: 96px;
   letter-spacing: 7.5px;
   text-align: center;
-  width: 500px;
 }
 .programs-text {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-weight: 300;
   line-height: 32px;
   text-align: center;
-  width: 550px;
-  height: 64px;
 }
 .programs-img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 103px 20px;
+  margin-left: 13px;
 }
-.programs-img__block {
-  display: flex;
-  flex-direction: column;
+.programs .card-group .card-group img {
   border-radius: 20px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
 }
-.programs .text {
-  font-family: Bebas Neue;
+.programs .card-group_link {
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 43px;
   font-weight: 700;
   line-height: 43px;
   letter-spacing: 3px;
   text-align: left;
   color: #FFD479;
-  padding-top: 30px;
+  padding-top: 21px;
 }
 
 /*# sourceMappingURL=main.css.map */
