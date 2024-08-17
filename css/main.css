@@ -292,6 +292,7 @@ label {
 
 .programs {
   padding-top: 160px;
+  padding-bottom: 155px;
 }
 .programs-SECTIONS {
   display: flex;
@@ -319,7 +320,6 @@ label {
   grid-template-columns: repeat(4, 1fr);
   gap: 103px 20px;
   margin-left: 13px;
-  margin-bottom: 155px;
 }
 .programs .card-group .card-group img {
   border-radius: 20px;
@@ -390,6 +390,40 @@ label {
   line-height: 150%;
   padding-bottom: 9px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer {
+  padding-top: 70px;
+  padding-left: 10px;
+}
+.footer-content {
+  margin-left: 10px;
+}
+.footer-socials {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.footer-contacts {
+  display: flex;
+  margin-top: 27px;
+  gap: 53px;
+}
+.footer-contacts address {
+  width: 242px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+}
+.footer-contacts p {
+  width: 292px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=main.css.map */
