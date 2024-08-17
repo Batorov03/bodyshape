@@ -319,6 +319,7 @@ label {
   grid-template-columns: repeat(4, 1fr);
   gap: 103px 20px;
   margin-left: 13px;
+  margin-bottom: 155px;
 }
 .programs .card-group .card-group img {
   border-radius: 20px;
@@ -336,10 +337,8 @@ label {
 }
 
 .contacts {
-  padding-top: 300px;
   background-image: url("./../../img/contacts/contact-form-bg.jpg");
   background-repeat: no-repeat;
-  width: 100%;
   background-size: cover;
   background-position: center;
   height: 860px;
