@@ -1,0 +1,41 @@
+.footer {
+	padding-top: 70px;
+	padding-left: 10px;
+
+	&-content {
+		margin-left: 10px;
+
+	}
+
+
+	&-socials {
+		display: flex;
+		gap: 50px;
+		align-items: center;
+	}
+
+	&-contacts {
+		display: flex;
+		margin-top: 27px;
+		gap: 53px;
+
+		address {
+			width: 242px;
+
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 28px;
+			text-align: left;
+		}
+
+		p {
+			width: 292px;
+
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 28px;
+			text-align: left;
+		}
+	}
+
+}

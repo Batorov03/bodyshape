@@ -47,29 +47,22 @@
 .form-group {
 	display: grid;
 	gap: 5px;
-}
-
-.label {
-	font-size: 16px;
-	font-weight: 700;
-}
-
-.input {
-	font-size: 16px;
-	font-weight: 300;
-
 	padding-bottom: 9px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
 
 }
 
 .textarea {
-	resize: vertical;
 	font-size: 16px;
 	font-weight: 300;
 	height: 170px;
-	line-height: 150%;
-	padding-bottom: 9px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	// height: 200px;
+	width: 100%;
+
+}
+
+
+.label {
+	font-size: 16px;
+	font-weight: 700;
 }
